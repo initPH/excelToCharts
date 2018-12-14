@@ -1,29 +1,30 @@
 <template>
   <div class="page-single">
     <div>
-      <div class="" style="color: #dc3545;">
         <el-button class="tishen-button" @click="clickUploadButton" type="primary">上传文件</el-button>
         <span v-if="fileName">{{fileName}}</span>
         <input ref="input" class="file-input" type="file" @change="inputChange" accept=".xls,.xlsx,.csv"/>
-      </div>
-    </div>
+        <TableBlock :tableData="tableData" :isLoading="isLoading"></TableBlock>
+        <chart-block :tableData="tableData"></chart-block>
+  </div>
   </div>
 </template>
 
 <script>
-  import Spinner from 'vue-simple-spinner'
+  import TableBlock from './components/TableBlock'
+  import ChartBlock from './components/charts'
   const XLSX = require('xlsx')
   export default {
     name: 'single',
     components: {
-      Spinner
+      TableBlock,
+      ChartBlock
     },
     data () {
       return {
-        fileName: '',
+        tableData: [],
         isLoading: false,
-        titleList: [],
-        dataList: []
+        fileName: ''
       }
     },
     methods: {
@@ -32,6 +33,7 @@
       },
       fileToTable (file) {
         this.isLoading = true
+        this.tableData = []
         if (!/\.(xls|xlsx|csv)$/.test(file.name.toLowerCase())) {
           this.$message.error('上传格式不正确')
           this.isLoading = false
@@ -53,16 +55,12 @@
             cellDates: true
           })
           let csv = XLSX.utils.sheet_to_csv(workbook['Sheets'][workbook['SheetNames'][0]]).split('\n')
-          csv.forEach((row, index) => {
-            if (index === 0) {
-              this.titleList = row.split(',').filter(item => !this._.isEmpty(item))
-            } else {
-              if (!this._.isEmpty(row.split(',').filter(item => !this._.isEmpty(item)))) {
-                this.dataList.push(row.split(','))
-              }
+          csv.forEach((item, index) => {
+            let rowData = item.split(',')
+            if (!this._.isEmpty(rowData.filter(data => data))) {
+              this.tableData.push(rowData)
             }
           })
-          console.log(this.dataList)
           this.isLoading = false
         }
       },
@@ -89,18 +87,6 @@
 </script>
 
 <style rel="stylesheet/scss" lang="scss">
-  html,
-  boby {
-    height: 100%;
-  }
-
-  body {
-    background-size: cover;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -khtml-user-select: none;
-    -ms-user-select: none;
-  }
 
   .page-single {
     .el-dropdown-link {
@@ -112,44 +98,6 @@
     }
     .file-input {
       display: none;
-    }
-    .table-div {
-      min-height: 400px;
-      height: 400px;
-      width: 980px;
-      overflow: scroll;
-      table {
-        width: 2000px;
-      }
-    }
-    table.altrowstable {
-      text-align: center;
-      font-family: verdana,arial,sans-serif;
-      font-size:16px;
-      color:#333333;
-      border-width: 1px;
-      border-color: #a9c6c9;
-      border-collapse: collapse;
-    }
-    table.altrowstable th {
-      border-width: 1px;
-      padding: 8px;
-      border-style: solid;
-      border-color: #a9c6c9;
-    }
-    table.altrowstable td {
-      border-width: 1px;
-      padding: 8px;
-      border-style: solid;
-      border-color: #a9c6c9;
-    }
-    table tr:nth-of-type(odd){ background-color:#d4e3e5;}
-    table tr:nth-of-type(even){ background-color:#c3dde0;}
-    .oddrowcolor{
-      background-color:#d4e3e5;
-    }
-    .evenrowcolor{
-      background-color:#c3dde0;
     }
   }
 </style>
