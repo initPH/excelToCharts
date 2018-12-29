@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="941bb81a-2148-4c58-a948-c31e63f43971" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/components/HelloWorld/components/TableBlock.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/HelloWorld/components/TableBlock.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/components/HelloWorld/components/charts/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/HelloWorld/components/chartBlock.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/components/HelloWorld/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/HelloWorld/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/store/modules/Counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/store/modules/Excel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/store/modules/todo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,10 +19,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.51331717">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="bar.vue" pinned="false" current-in-tab="true">
+          <file leaf-file-name="bar.vue" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/renderer/components/HelloWorld/components/charts/bar.vue">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="550">
+                <state relative-caret-position="161">
                   <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
                   <folding>
                     <element signature="e#1022#1086#0" />
@@ -38,6 +32,15 @@
                     <element signature="e#2210#2415#0" />
                     <element signature="e#2439#2778#0" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/README.md">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="75">
+                  <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
                 </state>
               </provider>
             </entry>
@@ -117,6 +120,7 @@
         <option value="$PROJECT_DIR$/src/renderer/components/HelloWorld/components/chartBlock.vue" />
         <option value="$PROJECT_DIR$/src/renderer/components/HelloWorld/components/charts/line.vue" />
         <option value="$PROJECT_DIR$/src/renderer/components/HelloWorld/components/charts/bar.vue" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -312,12 +316,12 @@
       <workItem from="1544768980401" duration="3332000" />
       <workItem from="1544780620368" duration="652000" />
       <workItem from="1545006836770" duration="33000" />
-      <workItem from="1546065903992" duration="9841000" />
+      <workItem from="1546065903992" duration="10261000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40535000" />
+    <option name="totallyTimeSpent" value="40955000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="366" y="0" width="1557" height="1040" extended-state="0" />
@@ -327,9 +331,9 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37472284" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37472284" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info id="npm" order="2" sideWeight="0.5159575" side_tool="true" weight="0.24174757" />
+      <window_info id="npm" order="2" sideWeight="0.5159575" side_tool="true" weight="0.1843318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.20288248" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -504,7 +508,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/renderer/components/HelloWorld/components/charts/bar.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
+        <state relative-caret-position="161">
           <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
           <folding>
             <element signature="e#1022#1086#0" />
@@ -514,6 +518,13 @@
             <element signature="e#2210#2415#0" />
             <element signature="e#2439#2778#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
