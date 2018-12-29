@@ -1,7 +1,10 @@
 <template>
   <div class="table-block">
+    <div v-if="isLoading">
+      <spinner :size="45" :line-size="4" message="加载中...." style="margin-top: 150px"></spinner>
+    </div>
     <table class="altrowstable"
-           v-if="!_.isEmpty(tableData)">
+           v-else>
       <thead>
       <tr>
         <th v-for="item in tableData[0]">
@@ -17,9 +20,6 @@
       </tr>
       </tbody>
     </table>
-    <div v-if="isLoading">
-      <spinner :size="45" :line-size="4" message="加载中...." style="margin-top: 150px"></spinner>
-    </div>
   </div>
 </template>
 
@@ -28,13 +28,14 @@
   export default {
     name: 'table-block',
     props: {
-      tableData: {
-        type: Array,
-        default: () => []
-      },
       isLoading: {
         type: Boolean,
         default: () => false
+      }
+    },
+    computed: {
+      tableData () {
+        return this.$store.state.Excel.excelData
       }
     },
     components: {

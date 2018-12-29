@@ -4,15 +4,15 @@
         <el-button class="tishen-button" @click="clickUploadButton" type="primary">上传文件</el-button>
         <span v-if="fileName">{{fileName}}</span>
         <input ref="input" class="file-input" type="file" @change="inputChange" accept=".xls,.xlsx,.csv"/>
-        <TableBlock :tableData="tableData" :isLoading="isLoading"></TableBlock>
-        <chart-block :tableData="tableData"></chart-block>
+        <TableBlock :isLoading="isLoading"></TableBlock>
+        <chart-block></chart-block>
   </div>
   </div>
 </template>
 
 <script>
   import TableBlock from './components/TableBlock'
-  import ChartBlock from './components/charts'
+  import ChartBlock from './components/chartBlock'
   const XLSX = require('xlsx')
   export default {
     name: 'single',
@@ -61,6 +61,7 @@
               this.tableData.push(rowData)
             }
           })
+          this.$store.dispatch('saveExcelData', this.tableData)
           this.isLoading = false
         }
       },
