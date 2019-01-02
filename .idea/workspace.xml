@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="941bb81a-2148-4c58-a948-c31e63f43971" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderer/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderer/components/HelloWorld/components/TableBlock.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/home/components/TableBlock.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderer/components/HelloWorld/components/chartBlock.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/home/components/chartBlock.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderer/components/HelloWorld/components/charts/bar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/home/components/charts/bar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderer/components/HelloWorld/components/charts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/home/components/charts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderer/components/HelloWorld/components/charts/line.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/home/components/charts/line.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderer/components/HelloWorld/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/home/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderer/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/router/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -16,66 +26,47 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.51331717">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="bar.vue" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/renderer/components/HelloWorld/components/charts/bar.vue">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="161">
-                  <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
-                  <folding>
-                    <element signature="e#1022#1086#0" />
-                    <element signature="e#1106#1370#0" />
-                    <element signature="e#1219#1328#0" />
-                    <element signature="e#1390#1728#0" />
-                    <element signature="e#2210#2415#0" />
-                    <element signature="e#2439#2778#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/README.md">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="line.vue" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/renderer/components/HelloWorld/components/charts/line.vue">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="313">
-                  <caret line="85" column="22" lean-forward="true" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
-                  <folding>
-                    <element signature="e#923#987#0" />
-                    <element signature="e#1007#1271#0" />
-                    <element signature="e#1120#1229#0" />
-                    <element signature="e#1291#1629#0" />
-                    <element signature="e#1998#2203#0" />
-                    <element signature="e#2227#2432#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="App.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/renderer/App.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/renderer/components/trackjs/index.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/renderer/components/layout/index.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="28" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tracking.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/tracking/build/tracking.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Vue Single File Component" />
         <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -90,6 +81,8 @@
       <find>chartBlock</find>
       <find>forEach</find>
       <find>excelData</find>
+      <find>swich</find>
+      <find>overf</find>
     </findStrings>
     <replaceStrings>
       <replace>getData</replace>
@@ -102,9 +95,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/renderer/components/helloWorld/index.vue" />
-        <option value="$PROJECT_DIR$/src/renderer/router/index.js" />
         <option value="$PROJECT_DIR$/src/renderer/store/modules/todo.js" />
-        <option value="$PROJECT_DIR$/src/main/index.js" />
         <option value="$PROJECT_DIR$/src/renderer/components/HelloWorld/components/tableBlock.vue" />
         <option value="$PROJECT_DIR$/src/renderer/components/HelloWorld/components/charts/index.html" />
         <option value="$PROJECT_DIR$/package.json" />
@@ -113,14 +104,22 @@
         <option value="$PROJECT_DIR$/src/renderer/store/modules/Counter.js" />
         <option value="$PROJECT_DIR$/src/renderer/store/modules/Excel.js" />
         <option value="$PROJECT_DIR$/src/renderer/components/HelloWorld/components/charts/charts.js" />
-        <option value="$PROJECT_DIR$/src/renderer/components/HelloWorld/components/charts/index.js" />
         <option value="$PROJECT_DIR$/src/renderer/components/HelloWorld/index.vue" />
-        <option value="$PROJECT_DIR$/src/renderer/components/HelloWorld/components/TableBlock.vue" />
         <option value="$PROJECT_DIR$/src/renderer/store/index.js" />
-        <option value="$PROJECT_DIR$/src/renderer/components/HelloWorld/components/chartBlock.vue" />
         <option value="$PROJECT_DIR$/src/renderer/components/HelloWorld/components/charts/line.vue" />
-        <option value="$PROJECT_DIR$/src/renderer/components/HelloWorld/components/charts/bar.vue" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/renderer/components/HelloWorld/components/charts/index.js" />
+        <option value="$PROJECT_DIR$/src/renderer/components/HelloWorld/components/charts/bar.vue" />
+        <option value="$PROJECT_DIR$/src/renderer/components/HelloWorld/components/charts/pie.vue" />
+        <option value="$PROJECT_DIR$/src/renderer/components/HelloWorld/components/chartBlock.vue" />
+        <option value="$PROJECT_DIR$/src/renderer/components/HelloWorld/components/TableBlock.vue" />
+        <option value="$PROJECT_DIR$/src/renderer/components/home/components/TableBlock.vue" />
+        <option value="$PROJECT_DIR$/src/renderer/components/index.vue" />
+        <option value="$PROJECT_DIR$/src/renderer/App.vue" />
+        <option value="$PROJECT_DIR$/src/renderer/router/index.js" />
+        <option value="$PROJECT_DIR$/src/main/index.js" />
+        <option value="$PROJECT_DIR$/src/renderer/components/layout/index.vue" />
+        <option value="$PROJECT_DIR$/src/renderer/components/trackjs/index.vue" />
       </list>
     </option>
   </component>
@@ -141,8 +140,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="366" />
-    <option name="width" value="1557" />
+    <option name="x" value="514" />
+    <option name="y" value="54" />
+    <option name="width" value="1055" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -153,7 +153,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -185,7 +184,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="renderer" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="excelToCharts" type="b2602c69:ProjectViewProjectNode" />
@@ -193,38 +192,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="renderer" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="excelToCharts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="excelToCharts" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="renderer" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="charts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="excelToCharts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="excelToCharts" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="renderer" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="excelToCharts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="excelToCharts" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="renderer" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="trackjs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -244,11 +218,11 @@
     <property name="settings.editor.selected.configurable" value="copyright.filetypes.ActionScript" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\work\electron\demo\excelToCharts\src\renderer\components\HelloWorld\components\charts" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\work\electron\demo\excelToCharts\src\renderer\components\HelloWorld\components" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\work\electron\demo\excelToCharts\src\renderer\components\HelloWorld\components\charts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -316,29 +290,31 @@
       <workItem from="1544768980401" duration="3332000" />
       <workItem from="1544780620368" duration="652000" />
       <workItem from="1545006836770" duration="33000" />
-      <workItem from="1546065903992" duration="10261000" />
+      <workItem from="1546065903992" duration="10365000" />
+      <workItem from="1546390058902" duration="7402000" />
+      <workItem from="1546397959968" duration="1827000" />
+      <workItem from="1546419803491" duration="2000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40955000" />
+    <option name="totallyTimeSpent" value="50290000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="366" y="0" width="1557" height="1040" extended-state="0" />
-    <editor active="true" />
+    <frame x="514" y="54" width="1055" height="1040" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48404256" visible="true" weight="0.1843318" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48121646" visible="true" weight="0.30776796" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37472284" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info id="npm" order="2" sideWeight="0.5159575" side_tool="true" weight="0.1843318" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38026607" />
+      <window_info id="npm" order="2" sideWeight="0.51878357" side_tool="true" weight="0.29668248" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.20288248" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.63414633" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="TypeScript" order="7" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="9" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -360,7 +336,73 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/renderer/components/HelloWorld/components/chartBlock.vue">
+    <entry file="file://$PROJECT_DIR$/src/renderer/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/renderer/components/layout/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="28" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/tracking/build/tracking.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/renderer/components/trackjs/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/renderer/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/renderer/components/trackjs/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/renderer/components/home/components/charts/bar.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2100">
+          <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
+          <folding>
+            <element signature="e#1022#1086#0" />
+            <element signature="e#1106#1370#0" />
+            <element signature="e#1219#1328#0" />
+            <element signature="e#1390#1728#0" />
+            <element signature="e#1749#2505#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/renderer/components/home/components/charts/line.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2125">
+          <caret line="85" column="22" lean-forward="true" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/renderer/components/home/components/chartBlock.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2150">
           <caret line="100" column="49" selection-start-line="100" selection-start-column="49" selection-end-line="100" selection-end-column="49" />
@@ -377,7 +419,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/renderer/components/HelloWorld/components/chartBlock.vue">
+    <entry file="file://$PROJECT_DIR$/src/renderer/components/home/components/chartBlock.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2500">
           <caret line="100" column="49" selection-start-line="100" selection-start-column="49" selection-end-line="100" selection-end-column="49" />
@@ -394,7 +436,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/renderer/components/HelloWorld/components/chartBlock.vue">
+    <entry file="file://$PROJECT_DIR$/src/renderer/components/home/components/chartBlock.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2025">
           <caret line="95" column="60" selection-start-line="95" selection-start-column="60" selection-end-line="95" selection-end-column="60" />
@@ -411,41 +453,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/_echarts@4.2.0-rc.2@echarts/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/renderer/store/modules/todo.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/renderer/App.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/_echarts@4.2.0-rc.2@echarts/index.js" />
+    <entry file="file://$PROJECT_DIR$/src/renderer/store/modules/todo.js" />
     <entry file="file://$PROJECT_DIR$/src/renderer/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/renderer/components/HelloWorld/components/charts/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/renderer/components/HelloWorld/index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="63" column="63" selection-start-line="63" selection-start-column="63" selection-end-line="63" selection-end-column="63" />
-          <folding>
-            <element signature="e#441#489#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -461,9 +476,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -474,57 +486,125 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/renderer/components/HelloWorld/components/TableBlock.vue">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding>
-            <element signature="e#672#758#0" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/renderer/components/HelloWorld/components/chartBlock.vue">
+    <entry file="file://$PROJECT_DIR$/src/renderer/components/home/components/charts/line.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        <state relative-caret-position="25">
+          <caret line="85" column="22" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/renderer/components/HelloWorld/components/charts/line.vue">
+    <entry file="file://$PROJECT_DIR$/src/renderer/components/home/components/chartBlock.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="85" column="22" lean-forward="true" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
-          <folding>
-            <element signature="e#923#987#0" />
-            <element signature="e#1007#1271#0" />
-            <element signature="e#1120#1229#0" />
-            <element signature="e#1291#1629#0" />
-            <element signature="e#1998#2203#0" />
-            <element signature="e#2227#2432#0" />
-          </folding>
+        <state>
+          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/renderer/components/HelloWorld/components/charts/bar.vue">
+    <entry file="file://$PROJECT_DIR$/src/renderer/components/home/components/charts/bar.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
+        <state relative-caret-position="757">
+          <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
           <folding>
             <element signature="e#1022#1086#0" />
             <element signature="e#1106#1370#0" />
             <element signature="e#1219#1328#0" />
             <element signature="e#1390#1728#0" />
-            <element signature="e#2210#2415#0" />
-            <element signature="e#2439#2778#0" />
+            <element signature="e#1749#2505#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/src/renderer/components/home/components/charts/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/renderer/components/home/components/charts/pie.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="75" column="45" lean-forward="true" selection-start-line="75" selection-start-column="45" selection-end-line="75" selection-end-column="45" />
+          <folding>
+            <element signature="e#985#1718#0" />
+            <element signature="e#1022#1086#0" />
+            <element signature="e#1219#1328#0" />
+            <element signature="e#1390#1728#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/renderer/components/index.vue" />
+    <entry file="file://$PROJECT_DIR$/src/renderer/components/home/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <element signature="e#441#489#0" expanded="true" />
+            <element signature="e#589#2560#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/renderer/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/renderer/components/home/components/TableBlock.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#13#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/renderer/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/_tracking@1.1.3@tracking/build/data/face-min.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/tracking/build/tracking-min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/tracking/build/tracking.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/renderer/components/layout/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="28" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/renderer/components/trackjs/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
         </state>
       </provider>
     </entry>

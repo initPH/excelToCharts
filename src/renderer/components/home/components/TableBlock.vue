@@ -1,7 +1,10 @@
 <template>
   <div class="table-block">
     <div v-if="isLoading">
-      <spinner :size="45" :line-size="4" message="加载中...." style="margin-top: 150px"></spinner>
+      <spinner :size="45" :line-size="4" message="加载中...."></spinner>
+    </div>
+    <div v-else-if="_.isEmpty(tableData)" class="data-empty">
+      暂无数据
     </div>
     <table class="altrowstable"
            v-else>
@@ -50,9 +53,15 @@
 
 <style lang="scss">
   .table-block {
-    height: 300px;
+    height: 144px;
     width: 100%;
     overflow-y: scroll;
+    .data-empty {
+      text-align: center;
+      font-size: 30px;
+      line-height: 140px;
+      color: gray;
+    }
     table {
       width: 100%;
       tr:nth-of-type(odd){ background-color:#c3dde0;}

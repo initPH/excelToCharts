@@ -1,6 +1,6 @@
 <template>
   <div>
-    X轴：
+    name：
     <el-select clearable v-model="xvalue" placeholder="请选择">
       <el-option
         v-for="item in XOptions"
@@ -9,11 +9,9 @@
         :value="item.value">
       </el-option>
     </el-select>
-    Y轴：
+    value：
     <el-select
       v-model="yvalue"
-      multiple
-      collapse-tags
       placeholder="请选择">
       <el-option
         v-for="item in YOptions"
@@ -22,7 +20,7 @@
         :value="item.value">
       </el-option>
     </el-select>
-    <el-button @click="genChart" :disabled="_.isEmpty(xvalue.toString()) || _.isEmpty(yvalue)">生成</el-button>
+    <el-button @click="genChart" :disabled="_.isEmpty(xvalue.toString()) || _.isEmpty(yvalue.toString())">生成</el-button>
     <div ref="chart" :style="{width: '700px', height: '400px'}">
     </div>
   </div>
@@ -34,9 +32,6 @@
     data () {
       return {
         myChart: undefined,
-        barOptions: {
-          yAxis: {}
-        },
         xvalue: '',
         yvalue: [],
         xData: [],
@@ -77,16 +72,14 @@
     methods: {
       // 生成图
       genChart () {
-        let series = []
+        let series = {type: 'pie', data: []}
         this.yData.forEach((data, index) => {
-          series.push({
-            name: index,
-            type: 'bar',
-            barGap: 0,
-            data: data
+          series.data.push({
+            name: this.xData[index],
+            value: data
           })
         })
-        this.myChart.setOption(this._.merge(this.barOptions, {
+        this.myChart.setOption(this._.merge({}, {
           grid: {
             right: 0
           },
@@ -94,15 +87,8 @@
           toolbox: {
             show: true,
             feature: {
-              magicType: {type: ['line', 'bar']},
               saveAsImage: {}
             }
-          },
-          xAxis: {
-            data: this.xData
-          },
-          dataZoom: {
-            type: 'inside'
           },
           series: series
         }))
@@ -119,18 +105,13 @@
         this.xData = dataList
       },
       yvalue (curVal) {
-        // y轴可以能不止选择一列数据
-        let ydata = []
-        curVal.forEach(yindex => {
-          let dataList = []
-          this.excelData.forEach((data, index) => {
-            if (index > 0) {
-              dataList.push(data[yindex])
-            }
-          })
-          ydata.push(dataList)
+        let dataList = []
+        this.excelData.forEach((data, index) => {
+          if (index > 0) {
+            dataList.push(data[curVal])
+          }
         })
-        this.yData = ydata
+        this.yData = dataList
       }
     },
     mounted () {

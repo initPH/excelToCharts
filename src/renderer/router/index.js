@@ -7,12 +7,16 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'hello-world',
-      component: require('@/components/HelloWorld').default
+      name: 'charts',
+      component: require('@/components/home').default
     },
     {
       path: '*',
       redirect: '/'
+    }, {
+      path: '/track',
+      name: 'track',
+      component: require('@/components/trackjs').default
     }
   ]
 })

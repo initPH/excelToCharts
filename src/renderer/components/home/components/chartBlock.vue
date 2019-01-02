@@ -4,8 +4,7 @@
       <el-radio-group v-model="radio">
       <el-radio-button label="柱状图"></el-radio-button>
       <el-radio-button label="折线图"></el-radio-button>
-      <el-radio-button label="广州"></el-radio-button>
-      <el-radio-button label="深圳"></el-radio-button>
+      <el-radio-button label="饼图"></el-radio-button>
     </el-radio-group>
     </div>
     <keep-alive>
@@ -15,12 +14,13 @@
 </template>
 
 <script>
-  import { bar, eLine } from './charts'
+  import { bar, eLine, pie } from './charts'
   export default {
     name: 'index',
     components: {
       bar,
-      eLine
+      eLine,
+      pie
     },
     data () {
       return {
@@ -37,6 +37,8 @@
           case '折线图':
             this.chartType = 'eLine'
             break
+          case '饼图':
+            this.chartType = 'pie'
         }
       }
     }
